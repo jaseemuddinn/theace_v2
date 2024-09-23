@@ -19,8 +19,8 @@ function HomeAbout() {
           </span>
         </div>
       </div>
-      <div className="lg:relative p-8">
-        <div className="">
+      <div className="lg:relative p-">
+        <div className="px-4">
           <img
             className="h-auto w-full object-cover rounded-xl z-10"
             src="http://placeholder.com/800x200"
@@ -28,13 +28,13 @@ function HomeAbout() {
           />
         </div>
         <div className="bg-[#fffaf0] rounded-xl px-4 py-4 lg:px-10 lg:py-6 lg:absolute lg:-mt-20 lg:left-20 lg:bottom-0 z-20 font-Montserrat">
-          <p className="text-start text-lg font-medium">
-            <span className="font-semibold text-3xl">Become a <span className='text-[#4b4da0]'>Student Ambassador</span></span> <br />
+          <p className="text-start text-lg font-medium px-4 flex flex-col">
+            <span className="font-semibold text-3xl leading-10">Become a <span className='text-[#4b4da0]'>Student Ambassador</span></span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur labore explicabo quam. Rerum explicabo, perferendis magnam eius eos aspernatur ipsa delectus hic sed ratione earum pariatur ducimus! Maiores, quam et?
-          </p>
-          <button className='px-20 mt-2 py-2 bg-[#4b4da0] text-white rounded-lg text-lg'>
+          <button className='lg:w-1/3 mt-2 py-2 bg-[#4b4da0] text-white rounded-lg text-lg'>
             Apply Now
           </button>
+          </p>
         </div>
         
       </div>
