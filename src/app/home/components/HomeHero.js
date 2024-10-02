@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import { motion } from 'framer-motion';
-import PoliceTapeEffect from './policeTape';
+import HomeMarquee from './policeTape';
 
 const letterVariants = {
   initial: { x: 0 },
@@ -89,7 +89,7 @@ const HomeHero = () => {
         </motion.span>
       </motion.div>
       <div>
-        <PoliceTapeEffect />
+        <HomeMarquee title="CHASE IT UNTIL YOU ACE IT" />
       </div>
     </div>
   );

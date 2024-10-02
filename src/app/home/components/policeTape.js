@@ -1,182 +1,22 @@
-'use client';
-import React from 'react';
-import './policeTape.css';
-const PoliceTapeEffect = () => {
-    return (
-        <div className='police-tape'>
-            <div className="stock-ticker-1">
-                <ul>
-                    <li className="minus">
-                        <span className="company">CHASE IT UNTIL</span>
-                        <span className="price">IT</span>
-                        <span className="change font-bold">UNTIL</span>
-                    </li>
-                    <li className="plus">
-                        <span className="company">YOU</span>
-                        <span className="price">ACE</span>
-                        <span className="change">IT</span>
-                    </li>
-                    <li className="plus">
-                        <span className="company">CHASE</span>
-                        <span className="price">IT</span>
-                        <span className="change font-bold">UNTIL</span>
-                    </li>
-                    <li className="minus">
-                        <span className="company">YOU</span>
-                        <span className="price">ACE</span>
-                        <span className="change">IT</span></li>
-                    <li className="plus">
-                        <span className="company">CHASE</span>
-                        <span className="price">IT</span>
-                        <span className="change font-bold">UNTIL</span>
-                    </li>
-                    <li className="minus">
-                        <span className="company">YOU</span>
-                        <span className="price">ACE</span>
-                        <span className="change">IT</span>
-                    </li>
-                    <li className="plus">
-                        <span className="company">CHASE</span>
-                        <span className="price">IT</span>
-                        <span className="change font-bold">UNTIL</span>
-                    </li>
-                    <li className="minus">
-                        <span className="company">YOU</span>
-                        <span className="price">ACE</span>
-                        <span className="change pr-5">IT</span>
-                    </li>
-                </ul>
+import Marquee from "react-fast-marquee";
 
-                <ul aria-hidden="true">
-                    <li className="minus">
-                        <span className="company">CHASE</span>
-                        <span className="price">IT</span>
-                        <span className="change font-bold">UNTIL</span>
-                    </li>
-                    <li className="plus">
-                        <span className="company">YOU</span>
-                        <span className="price">ACE</span>
-                        <span className="change">IT</span>
-                    </li>
-                    <li className="plus">
-                        <span className="company">CHASE</span>
-                        <span className="price">IT</span>
-                        <span className="change font-bold">UNTIL</span>
-                    </li>
-                    <li className="minus">
-                        <span className="company">YOU</span>
-                        <span className="price">ACE</span>
-                        <span className="change">IT</span></li>
-                    <li className="plus">
-                        <span className="company">CHASE</span>
-                        <span className="price">IT</span>
-                        <span className="change font-bold">UNTIL</span>
-                    </li>
-                    <li className="minus">
-                        <span className="company">YOU</span>
-                        <span className="price">ACE</span>
-                        <span className="change">IT</span>
-                    </li>
-                    <li className="plus">
-                        <span className="company">CHASE</span>
-                        <span className="price">IT</span>
-                        <span className="change font-bold">UNTIL</span>
-                    </li>
-                    <li className="minus">
-                        <span className="company">YOU</span>
-                        <span className="price">ACE</span>
-                        <span className="change">IT</span>
-                    </li>
-                </ul>
-            </div>
-            <div className="stock-ticker">
-                <ul>
-                    <li className="minus">
-                        <span className="company">CHASE IT UNTIL</span>
-                        <span className="price">IT</span>
-                        <span className="change font-bold">UNTIL</span>
-                    </li>
-                    <li className="plus">
-                        <span className="company">YOU</span>
-                        <span className="price">ACE</span>
-                        <span className="change">IT</span>
-                    </li>
-                    <li className="plus">
-                        <span className="company">CHASE</span>
-                        <span className="price">IT</span>
-                        <span className="change font-bold">UNTIL</span>
-                    </li>
-                    <li className="minus">
-                        <span className="company">YOU</span>
-                        <span className="price">ACE</span>
-                        <span className="change">IT</span></li>
-                    <li className="plus">
-                        <span className="company">CHASE</span>
-                        <span className="price">IT</span>
-                        <span className="change font-bold">UNTIL</span>
-                    </li>
-                    <li className="minus">
-                        <span className="company">YOU</span>
-                        <span className="price">ACE</span>
-                        <span className="change">IT</span>
-                    </li>
-                    <li className="plus">
-                        <span className="company">CHASE</span>
-                        <span className="price">IT</span>
-                        <span className="change font-bold">UNTIL</span>
-                    </li>
-                    <li className="minus">
-                        <span className="company">YOU</span>
-                        <span className="price">ACE</span>
-                        <span className="change pr-5">IT</span>
-                    </li>
-                </ul>
-
-                <ul aria-hidden="true">
-                    <li className="minus">
-                        <span className="company">CHASE</span>
-                        <span className="price">IT</span>
-                        <span className="change font-bold">UNTIL</span>
-                    </li>
-                    <li className="plus">
-                        <span className="company">YOU</span>
-                        <span className="price">ACE</span>
-                        <span className="change">IT</span>
-                    </li>
-                    <li className="plus">
-                        <span className="company">CHASE</span>
-                        <span className="price">IT</span>
-                        <span className="change font-bold">UNTIL</span>
-                    </li>
-                    <li className="minus">
-                        <span className="company">YOU</span>
-                        <span className="price">ACE</span>
-                        <span className="change">IT</span></li>
-                    <li className="plus">
-                        <span className="company">CHASE</span>
-                        <span className="price">IT</span>
-                        <span className="change font-bold">UNTIL</span>
-                    </li>
-                    <li className="minus">
-                        <span className="company">YOU</span>
-                        <span className="price">ACE</span>
-                        <span className="change">IT</span>
-                    </li>
-                    <li className="plus">
-                        <span className="company">CHASE</span>
-                        <span className="price">IT</span>
-                        <span className="change font-bold">UNTIL</span>
-                    </li>
-                    <li className="minus">
-                        <span className="company">YOU</span>
-                        <span className="price">ACE</span>
-                        <span className="change">IT</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    );
-};
-
-export default PoliceTapeEffect;
+const HomeMarquee = ({title, direction = "right"}) => {
+    return ( <div className="font-Montserrat font-medium">
+        <div className="absolute -z-10 w-full py-4 border-none left-0 md:bottom-24 bottom-4 transform md:-rotate-6 bg-black">
+    <Marquee autoFill={true} direction={direction}>
+      <h1 className="text-sm text-white uppercase px-4">
+        {title}
+      </h1>
+    </Marquee>
+    </div>
+    <div className="absolute hidden md:block -z-10 w-full border-none py-4 left-0 bottom-24 transform rotate-6 bg-black">
+    <Marquee autoFill={true} direction={direction}>
+      <h1 className="text-sm text-white uppercase px-4">
+        {title}
+      </h1>
+    </Marquee>
+    </div>
+  </div> );
+}
+ 
+export default HomeMarquee;
