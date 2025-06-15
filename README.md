@@ -11,6 +11,7 @@ A Next.js app where I’m experimenting, building, and probably breaking things 
 - Browse the code
 - See how I structure a Next.js project
 - Maybe get inspired for your own project
+- My Community Journey
 
 ## Want to chat or collab?
 
