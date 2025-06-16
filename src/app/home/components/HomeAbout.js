@@ -7,7 +7,7 @@ function HomeAbout() {
         <div className='md:relative p-4'>
           <img
             className='rounded-xl h-auto w-full object-cover lg:-mr-16 z-10'
-            src="http://placeholder.com/1000x800"
+            src="" //1000x800 placeholder image
             alt="Image description"
           />
         </div>
@@ -23,7 +23,7 @@ function HomeAbout() {
         <div className="px-4">
           <img
             className="h-auto w-full object-cover rounded-xl z-10"
-            src="http://placeholder.com/800x200"
+            src="" //800x200 placeholder image
             alt="Image description"
           />
         </div>
